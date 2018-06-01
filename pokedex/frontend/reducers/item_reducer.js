@@ -4,10 +4,8 @@ import {merge} from 'lodash';
 const itemsReducer = (state = {},action) =>{
   // console.log(action);
   switch (action.type) {
-    case RECEIVE_ALL_POKEMON:
-     return action.pokemon.items;
     case RECEIVE_POKEMON:
-     return action.pokemon.items;
+     return action.payload.items;
      default:
      return state;
   }

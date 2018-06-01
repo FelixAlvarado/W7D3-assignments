@@ -1,0 +1,15 @@
+/* line 4, /Users/appacademy/Desktop/w7d3/pokedex/app/assets/stylesheets/static_pages.scss */
+img {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+}
+
+/* line 9, /Users/appacademy/Desktop/w7d3/pokedex/app/assets/stylesheets/static_pages.scss */
+li {
+  list-style: decimal;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  vertical-align: middle;
+  padding: 2px;
+}
